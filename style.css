@@ -1,0 +1,98 @@
+#compra {
+    color: green !important;
+}
+
+.carousel-caption{
+    right: 15%;
+    top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align:right !important;
+    margin-right: 15px !important;
+}
+
+
+.parrafo{
+    margin-left: 40%;
+    font-size: 20px;
+    
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    .parrafo{
+        margin-left: 0%;
+        font-size: 20px;
+        
+    }
+    .carousel-caption{
+        width: 70% !important;
+        right:00%;
+        top: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+        left: 0%;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        text-align:left !important;
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width:790px) {
+    #carrs {
+        height: 100% !important;
+    }
+}
+
+
+.titt{
+    text-align: center;
+}
+.iconC{
+    font-weight: bold;
+    font-size: 10px;
+}
+.card2{
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.tt{
+    text-align:left !important;
+}
+.secondpart{
+    text-align: center;
+}
+
+.charla {
+text-decoration:underline;
+text-decoration-style: dotted;
+}
+
+.form-floating{
+    margin-top: 5px;
+}
+
+#enviarbtn{
+    background-color: rgb(128, 214, 79) !important;
+    color: white;
+}
+
+footer{
+    height: 150px;
+    background-color: #304c66 !important;
+    color: white;
+    margin-top: 2%;
+    align-items: center;
+    width: 100%;
+    position:end;
+}
+
+#columnasFooter{
+    padding: 5px !important;
+}
+#contenedor{
+    padding: 2%;
+}
+.formbefore{
+    margin-top: 2%;
+}
